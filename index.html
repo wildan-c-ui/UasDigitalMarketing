@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CodePro X - Laptop Performa Tinggi</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f5f7fa;
+    color:#333;
+    line-height:1.6;
+}
+
+/* HEADER */
+header{
+    background:linear-gradient(135deg,#0f172a,#2563eb);
+    color:white;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:50px 10%;
+}
+
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.hero-text{
+    flex:1;
+    min-width:300px;
+}
+
+.hero-text h1{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+.hero-text p{
+    font-size:1.1rem;
+    margin-bottom:25px;
+}
+
+.btn{
+    display:inline-block;
+    background:#ff9800;
+    color:white;
+    text-decoration:none;
+    padding:14px 30px;
+    border-radius:50px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#ffb74d;
+    transform:translateY(-3px);
+}
+
+.hero img{
+    width:500px;
+    max-width:100%;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,.3);
+}
+
+/* SECTION */
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:2.3rem;
+    color:#0f172a;
+}
+
+/* ABOUT */
+.about{
+    text-align:center;
+    max-width:900px;
+    margin:auto;
+}
+
+/* FEATURES */
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.feature-card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.feature-card:hover{
+    transform:translateY(-10px);
+}
+
+.feature-card h3{
+    margin:15px 0;
+    color:#2563eb;
+    font-size:1.3rem;
+}
+
+.icon{
+    font-size:50px;
+}
+
+/* TESTIMONI */
+.testimonials{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.testi{
+    background:white;
+    padding:25px;
+    border-left:5px solid #2563eb;
+    border-radius:10px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+/* CTA */
+.cta{
+    background:linear-gradient(135deg,#2563eb,#0f172a);
+    color:white;
+    text-align:center;
+    border-radius:20px;
+    padding:60px;
+}
+
+.cta h2{
+    margin-bottom:20px;
+}
+
+/* FOOTER */
+footer{
+    background:#111827;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero-text h1{
+    font-size:2.2rem;
+}
+
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="hero">
+
+        <div class="hero-text">
+            <h1>🚀 CodePro X</h1>
+            <p>
+                Laptop premium untuk Coding, Editing, Desain,
+                dan Gaming dengan performa super cepat.
+            </p>
+
+            <a href="#" class="btn">🛒 Beli Sekarang</a>
+        </div>
+
+        <img src="laptop.jpg"
+             alt="Laptop CodePro X">
+    </div>
+</header>
+
+<section>
+    <div class="section-title">
+        <h2>Tentang Produk</h2>
+    </div>
+
+    <div class="about">
+        <p>
+            CodePro X merupakan laptop generasi terbaru yang
+            dirancang khusus untuk mahasiswa, programmer,
+            content creator, editor video, dan gamer yang
+            membutuhkan performa tinggi dalam satu perangkat.
+        </p>
+    </div>
+</section>
+
+<section>
+    <div class="section-title">
+        <h2>✨ Fitur Unggulan</h2>
+    </div>
+
+    <div class="features">
+
+        <div class="feature-card">
+            <div class="icon">⚡</div>
+            <h3>AMD Ryzen 7</h3>
+            <p>Performa cepat untuk multitasking dan pekerjaan berat.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">🧠</div>
+            <h3>RAM 16GB</h3>
+            <p>Membuka banyak aplikasi tanpa lag.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">💾</div>
+            <h3>SSD NVMe 1TB</h3>
+            <p>Booting dan loading super cepat.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">🔋</div>
+            <h3>Baterai Tahan Lama</h3>
+            <p>Hingga 10 jam penggunaan normal.</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="section-title">
+        <h2>⭐ Testimoni Pengguna</h2>
+    </div>
+
+    <div class="testimonials">
+
+        <div class="testi">
+            <p>
+                "Sangat membantu pekerjaan coding saya.
+                Compile project jadi jauh lebih cepat."
+            </p>
+            <strong>- Andi, Programmer</strong>
+        </div>
+
+        <div class="testi">
+            <p>
+                "Render video lancar dan desain grafis
+                terasa lebih nyaman."
+            </p>
+            <strong>- Rina, Content Creator</strong>
+        </div>
+
+        <div class="testi">
+            <p>
+                "Game favorit saya berjalan sangat mulus
+                dengan setting tinggi."
+            </p>
+            <strong>- Budi, Gamer</strong>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="cta">
+        <h2>Siap Meningkatkan Produktivitas Anda?</h2>
+        <p>
+            Dapatkan performa terbaik untuk belajar,
+            bekerja, dan bermain.
+        </p>
+        <br>
+        <a href="#" class="btn">🔥 Pesan Sekarang</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 CodePro X. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
